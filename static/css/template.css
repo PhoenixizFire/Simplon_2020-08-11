@@ -1,0 +1,17 @@
+body{
+	background-color:cadetblue;
+}
+
+.logo{
+	color : white;
+	outline: #C41013;
+	font-family:Impact;
+	font-size:20px;
+}
+
+h1{
+	color : blue;
+	outline: #C41013;
+	font-family:Impact;
+	font-size:20px;
+}
