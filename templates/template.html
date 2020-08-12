@@ -5,7 +5,7 @@
    <title>Flask Parent Template</title>
 	 
    <link rel="stylesheet" href="{{ url_for('static',filename='/css/template.css') }}">
-	 
+   <link href="../static/css/template.css" rel="stylesheet" type="text/css">
  </head>
  <body>
     <header>
@@ -13,9 +13,9 @@
         <h1 class="logo">First Web App</h1>
         <strong><nav>
           <ul class="menu">
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('about') }}">About</a></li>
-			<li><a href="{{ url_for('salvador')}}">Salvador mais pas Dali</a></li>
+            <li id="menu"><a href="{{ url_for('home') }}">Home</a>
+            <li id="menu"><a href="{{ url_for('about') }}">About</a></li>
+			<li id="menu"><a href="{{ url_for('salvador')}}">Salvador mais pas Dali</a></li>
           </ul>
         </nav></strong>
       </div>

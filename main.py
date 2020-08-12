@@ -1,4 +1,8 @@
 from flask import Flask,render_template
+import os
+from app import routes
+
+## IF PROBLEMS WITH CSS : DO CTRL+SHIFT+R ON CHROME (WIN)
 
 app = Flask(__name__)
 

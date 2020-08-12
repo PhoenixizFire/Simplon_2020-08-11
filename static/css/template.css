@@ -3,14 +3,31 @@ body{
 }
 
 .logo{
-	color : white;
+	color : #FFFFFF;
+	display: block;
+	border: 3px solid #000;
+	background: #000;
+	text-align: center;
 	outline: #C41013;
 	font-family:Impact;
 	font-size:20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu{
+	display: inline-block;
+	margin: 0 15px;
+	vertical-align: top;
 }
 
 h1{
-	color : blue;
+	color : #F49555;
 	outline: #C41013;
 	font-family:Impact;
 	font-size:20px;

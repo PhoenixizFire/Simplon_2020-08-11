@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"C:\Users\UTILIS~1\DOCUME~1\SIMPLO~1\20A5F9~1\VENV"
+$VIRTUAL_ENV = r"D:\Sauvegarde\Documents\Python Scripts\Simplon\2020-08-11 Flask\VENV"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
